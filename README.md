@@ -1,0 +1,30 @@
+# Restaurant
+_by Gabriel Tucker_
+
+## Description
+create an MVC web application to help her manage her employees (stylists) and their clients. Claire should be able to add a list of stylists working at the salon, and for each stylist, add clients who see that stylist. The stylists have specific specialties, so each client can only see (belong to) a single stylist.
+
+### Technologies Used
+
+* C#
+* MSTest
+* .Net
+* Git
+* NuGet package with dotnet CLI
+* Sql
+
+## Setup
+
+1. Navigate to [github repository](https://github.com/Gabe9T/HairSalon.Solution) for this project 
+
+2. Click the `Fork` button and  you will be taken to a new page where you can give your repository a new name and description. Choose "create fork".
+
+3. Click the `Code` button and copy the url for HTTPS.
+
+4. On your local computer, create a working directory for my files and name appropriately.
+
+5. On your terminal, type `$ git clone https://github.com/Gabe9T/HairSalon.Solution.git`
+
+6. In the terminal, type `$ dotnet run` (to compile and execute the console application ).
+
+7. Enjoy!  You can close the development server at anytime by entering `ctrl` + `c` in the terminal.

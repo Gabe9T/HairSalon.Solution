@@ -1,4 +1,4 @@
-# Restaurant
+# Hair Salon
 _by Gabriel Tucker_
 
 ## Description

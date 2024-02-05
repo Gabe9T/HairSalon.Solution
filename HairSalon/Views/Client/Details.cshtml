@@ -1,0 +1,15 @@
+@model HairSalon.Models.Client
+
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Client Details";
+}
+
+<h2>Client Details</h2>
+<hr />
+
+    <p>Name: @Html.DisplayFor(model => model.Name)<p>
+    <p>Phone Number: @Html.DisplayFor(model => model.Number)<p>
+    <p>Stylist: @Html.DisplayFor(model => model.Stylist.Name)<p>
+
+    @Html.ActionLink("Back to Stylists List", "Index", "Stylists")
